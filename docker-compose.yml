@@ -1,0 +1,5 @@
+# No external services required for local development.
+# All Soroban RPC calls are mocked in tests.
+# To run against testnet, set contract address env vars (see CONTRIBUTING.md).
+version: '3.8'
+services: {}
